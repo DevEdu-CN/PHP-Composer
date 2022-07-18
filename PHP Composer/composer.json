@@ -1,0 +1,21 @@
+{
+    "name": "devedu/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Devedu\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eduardo",
+            "email": "luiz.ed2013@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/dom-crawler": "^6.1",
+        "symfony/css-selector": "^6.1"
+    }
+}
