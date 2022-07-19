@@ -1,5 +1,5 @@
 <?php
-namespace Alura\BuscadorDeCursos;
+namespace Devedu\BuscadorCursos;
 
 use GuzzleHttp\ClientInterface;
 use Symfony\Component\DomCrawler\Crawler;

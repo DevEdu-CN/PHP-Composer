@@ -1,9 +1,10 @@
 <?php
 
 require 'vendor/autoload.php';
-require 'src/Buscador.php';
 
-use Alura\BuscadorDeCursos\Buscador;
+
+use Devedu\BuscadorCursos\Buscador;
+
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 
